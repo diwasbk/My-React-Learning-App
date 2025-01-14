@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    <h1>This is my React JS learning</h1>
+    <h1 className='heading'>This is my React JS learning</h1>
     <Coffee/>
     <Hooks/>
     <Images/>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './Custom.css'
 
 function Hooks() {
     let[counter, setCounter] = useState(0);
@@ -14,7 +15,7 @@ function Hooks() {
     }
 
   return (
-    <div>
+    <div className='coffee-counter'>
         <h2>Coffee Count: {counter}</h2>
         <button onClick={addCoffee}>Add Coffee</button>
         <button onClick={removeCoffee}>Remove Coffee</button>

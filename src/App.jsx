@@ -1,5 +1,6 @@
 import './App.css'
 import Coffee from './components/Coffee'
+import Hooks from './components/Hooks'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
     <h1>This is my React JS learning</h1>
     <Coffee/>
+    <Hooks/>
     </>
   )
 }

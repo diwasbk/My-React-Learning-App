@@ -1,5 +1,6 @@
 import './App.css'
 import Coffee from './components/Coffee'
+import EventHandling from './components/EventHandling'
 import Hooks from './components/Hooks'
 import Images from './components/Images'
 
@@ -11,6 +12,7 @@ function App() {
     <Coffee/>
     <Hooks/>
     <Images/>
+    <EventHandling/>
     </>
   )
 }

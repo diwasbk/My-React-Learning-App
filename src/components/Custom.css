@@ -48,3 +48,11 @@ button:hover{
 img {
     max-width: 100%; /* Ensure images do not overflow their container */
 }
+
+.event-handling{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    color: white;
+    background: linear-gradient(90deg, rgb(68, 113, 154), rgb(22, 59, 52));
+}

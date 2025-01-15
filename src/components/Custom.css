@@ -56,3 +56,20 @@ img {
     color: white;
     background: linear-gradient(90deg, rgb(68, 113, 154), rgb(22, 59, 52));
 }
+
+.template{
+    padding-left: 170px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgb(68, 113, 154), rgb(22, 59, 52));
+}
+
+.msg{
+    padding-left: 150px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 20px;
+}

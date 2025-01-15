@@ -1,4 +1,5 @@
 import './App.css'
+import BackgroundChanger from './components/BackgroundChanger'
 import Coffee from './components/Coffee'
 import ConditionalRendering from './components/ConditionalRendering'
 import EventHandling from './components/EventHandling'
@@ -15,6 +16,7 @@ function App() {
     <Images/>
     <EventHandling/>
     <ConditionalRendering/>
+    <BackgroundChanger/>
     </>
   )
 }

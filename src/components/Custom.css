@@ -73,3 +73,10 @@ img {
     background-color: whitesmoke;
     font-size: 20px;
 }
+
+.bgchanger-design{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

@@ -5,6 +5,11 @@ import ConditionalRendering from './components/ConditionalRendering'
 import EventHandling from './components/EventHandling'
 import Hooks from './components/Hooks'
 import Images from './components/Images'
+import {BrowserRouter, Routes, Route} from "react-router-dom"
+import Home from './components/Home'
+import About from './components/About'
+import Login from './components/Login'
+import Signup from './components/Signup'
 
 function App() {
 
@@ -17,6 +22,14 @@ function App() {
     <EventHandling/>
     <ConditionalRendering/>
     <BackgroundChanger/>
+    <BrowserRouter>
+        <Routes>
+          <Route path="/home" element={<Home/>}/>
+          <Route path="/login" element={<Login/>}/>
+          <Route path="/signup" element={<Signup/>}/>
+          <Route path="/about" element={<About/>}/>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }

@@ -1,7 +1,8 @@
 import React from 'react'
+import "./Custom.css"
 function Signup() {
   return (
-    <div>Signup page</div>
+    <div className='page-container'>Signup page</div>
   )
 }
 export default Signup

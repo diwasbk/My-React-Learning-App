@@ -1,7 +1,8 @@
 import React from 'react'
+import "./Custom.css"
 function About() {
   return (
-    <div>Know more about us</div>
+    <div className='page-container'>Know more about us</div>
   )
 }
 export default About

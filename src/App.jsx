@@ -11,6 +11,7 @@ import About from './components/About'
 import Login from './components/Login'
 import Signup from './components/Signup'
 import Navbar from './components/Navbar'
+import Card from './components/Card'
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
           <Route path="/about" element={<About/>}/>
         </Routes>
       </BrowserRouter>
+      <Card/>
     </>
   )
 }

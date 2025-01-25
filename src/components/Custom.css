@@ -119,3 +119,51 @@ nav ul li a:hover {
     font-size: 50px;
     font-weight: 700;
 }
+
+/* Custom CSS for Card */
+.card {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-top: 2rem;
+    font-family: Arial, sans-serif;
+}
+  
+.card-image {
+    width: 100%;
+    display: block;
+}
+  
+.card-content {
+    padding: 1.5rem;
+}
+  
+.card-title {
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+  
+.card-text {
+    color: #4a4a4a;
+    font-size: 1rem;
+}
+  
+.card-tags {
+    padding: 1rem;
+    padding-top: 0;
+}
+  
+.tag {
+    display: inline-block;
+    background-color: #f1f1f1;
+    border-radius: 999px;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #4a4a4a;
+    margin: 0.25rem 0.5rem 0.25rem 0;
+}
+  

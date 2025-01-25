@@ -12,6 +12,8 @@ import Login from './components/Login'
 import Signup from './components/Signup'
 import Navbar from './components/Navbar'
 import Card from './components/Card'
+import Sender from './components/Sender'
+import Receiver from './components/Receiver'
 
 function App() {
 
@@ -36,6 +38,13 @@ function App() {
       </BrowserRouter>
       <Card title="The Coldest Sunset" desc="The coldest sunset blazes in icy hues—lavender, orange, crimson—frost glinting as the frozen world falls silent." hashtag1="#photography" hashtag2="#winter" hashtag3="#sunset"/>
       <Card title="The Hottest Sunset" desc="The hottest sunset burns with fiery reds and golds, the air shimmering as heat waves dance on the horizon." hashtag1="#summer" hashtag2="#sunset" hashtag3="#visitnow"/>
+      
+      <BrowserRouter>
+        <Routes>
+          <Route path="/sender" element={<Sender/>}/>
+          <Route path="/receiver" element={<Receiver/>}/>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }

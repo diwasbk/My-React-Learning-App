@@ -166,4 +166,24 @@ nav ul li a:hover {
     color: #4a4a4a;
     margin: 0.25rem 0.5rem 0.25rem 0;
 }
-  
+
+.sender-receiver-page-container{
+    height: 550px;
+    background: linear-gradient(90deg, rgb(18, 145, 187), rgb(244, 44, 218), white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+.sender-button {
+    padding-bottom: 40px;
+    margin: 50px;
+    font-size: 20px; 
+    font-weight: 700;
+    color: white;
+    background-color: rgb(7, 97, 206);
+    border: none;
+    border-radius: 8px;
+    text-align: center; 
+}

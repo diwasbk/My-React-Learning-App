@@ -36,11 +36,15 @@ function App() {
           <Route path="/about" element={<About/>}/>
         </Routes>
       </BrowserRouter>
+
+      <h1>Props</h1>
       <Card title="The Coldest Sunset" desc="The coldest sunset blazes in icy hues—lavender, orange, crimson—frost glinting as the frozen world falls silent." hashtag1="#photography" hashtag2="#winter" hashtag3="#sunset"/>
       <Card title="The Hottest Sunset" desc="The hottest sunset burns with fiery reds and golds, the air shimmering as heat waves dance on the horizon." hashtag1="#summer" hashtag2="#sunset" hashtag3="#visitnow"/>
       
+      <h1>useNavigate and useLocation</h1>
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<Sender/>}/>
           <Route path="/sender" element={<Sender/>}/>
           <Route path="/receiver" element={<Receiver/>}/>
         </Routes>

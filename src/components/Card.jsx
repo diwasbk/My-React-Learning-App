@@ -1,7 +1,7 @@
 import React from 'react';
 import './Custom.css'; // Importing custom CSS
 
-function Card(title) {
+function Card({title, desc, hashtag1, hashtag2, hashtag3}) {
   return (
     <div className="card">
       <img
@@ -10,15 +10,15 @@ function Card(title) {
         alt="Sunset"
       />
       <div className="card-content">
-        <div className="card-title">The Coldest Sunset</div>
+        <div className="card-title">{title}</div>
         <p className="card-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+          {desc}
         </p>
       </div>
       <div className="card-tags">
-        <span className="tag">#photography</span>
-        <span className="tag">#travel</span>
-        <span className="tag">#winter</span>
+        <span className="tag">{hashtag1}</span>
+        <span className="tag">{hashtag2}</span>
+        <span className="tag">{hashtag3}</span>
       </div>
     </div>
   );

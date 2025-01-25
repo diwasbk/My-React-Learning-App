@@ -34,7 +34,8 @@ function App() {
           <Route path="/about" element={<About/>}/>
         </Routes>
       </BrowserRouter>
-      <Card/>
+      <Card title="The Coldest Sunset" desc="The coldest sunset blazes in icy hues—lavender, orange, crimson—frost glinting as the frozen world falls silent." hashtag1="#photography" hashtag2="#winter" hashtag3="#sunset"/>
+      <Card title="The Hottest Sunset" desc="The hottest sunset burns with fiery reds and golds, the air shimmering as heat waves dance on the horizon." hashtag1="#summer" hashtag2="#sunset" hashtag3="#visitnow"/>
     </>
   )
 }
